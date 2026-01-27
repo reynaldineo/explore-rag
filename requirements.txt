@@ -1,0 +1,11 @@
+requests
+tenacity
+numpy
+matplotlib
+scikit-learn
+chardet 
+markdown 
+beautifulsoup4 
+tqdm 
+PyPDF2 
+python-docx
