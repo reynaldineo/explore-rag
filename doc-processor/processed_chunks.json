@@ -1,0 +1,129 @@
+[
+  {
+    "id": "docs/sample.md-chunk-0",
+    "text": "This is sample\n\n\nhey",
+    "metadata": {
+      "source": "docs/sample.md",
+      "file_type": "markdown",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample.txt-chunk-0",
+    "text": "this is sample only",
+    "metadata": {
+      "source": "docs/sample.txt",
+      "file_type": "txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample.html-chunk-0",
+    "text": "Document\n\n\n\n\n\n\nSample Document\n\n\nThis is a sample HTML document for testing purposes.",
+    "metadata": {
+      "source": "docs/sample.html",
+      "file_type": "html",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-1-chunk-0",
+    "text": "",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 1,
+      "file_type": "pdf",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-1-chunk-1",
+    "text": "\nOperational Sustainability\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. \nDoing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given the nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 corporate buildings, bank branches and data centers. \nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental \nand social risks associated with our financing activities, see page 14 ; for more about how we are helping accelerate the transition to a low-\ncarbon economy, see page 47 .\nOur Operational Sustainability Targets\nWe have developed the following targets to drive progress on operational sustainability:\nMaintain carbon neutral \noperations annually, starting in 2020Source renewable energy for 100% of our global power needs annually, starting in 2020Reduce Scope 1 and Scope 2 greenhouse gas emissions by 40% by 2030 vs. a 2017 baseline\nSatisfy at least 70%  of our renewable \nenergy goal with on-site renewable energy and off-site long-term renewable energy contracts by 2025Transition our entire owned fleet of vehicles to electric vehicles by 2025Reduce global water consumption by 20% by 2030 vs. a 2017 baseline\nReduce office paper use by 90% by 2025 vs. a 2017 baselinePurchase 100% of our paper from certified sources by the end of 2021Divert 100% of e-waste from \nlandfills\nAchieving Carbon Neutral Operations\nIn 2020, we committed to become carbon \nneutral across our operations. Our commitment includes Scope 1 (direct) greenhouse gas (GHG) emissions from building operations and company-owned aircraft and vehicles; Scope 2 (indirect) GHG emissions from purchased electricity; and Scope 3 (indirect) GHG emissions associated with business travel. We are committed to maintaining carbon neutral operations each year going forward. Our strategy to achieve — and maintain — carbon neutral operations is focused on the following: \n] Improving efficiency. Reducing the amount of energy we use is our first priority; we have undertaken a range of energy efficiency measures across our operations and plan to implement additional improvements in the coming years.\n] Sourcing renewables. Next, we are focused on installing on-site renewable energy systems at JPMorgan Chase properties and executing long-term renewable energy procurement agreements (e.g., Power Purchase Agreements and green power supply contracts).\n] Purchasing Energy Attribute Certificates (EACs) and carbon offsets. Finally, for the remainder of our direct and indirect emissions, we are purchasing applicable EACs (e.g., Green-E certified Renewable Energy Certificates [RECs], International-RECs) and verified carbon offsets (see page 31). \n28\n2020 Environmental, Social & Governance Report",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 1,
+      "file_type": "pdf",
+      "chunk_index": 1
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-2-chunk-0",
+    "text": "",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 2,
+      "file_type": "pdf",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-2-chunk-1",
+    "text": "\nOur 2020 Operational GHG Footprint\nJPMorgan Chase’s operational GHG footprint stems from two primary activities: powering our buildings (e.g., electricity, heating \nand cooling) and business travel. Scope 2 emissions, from purchased electricity, are the largest driver of our building-related emissions and overall operational GHG footprint. The majority of our business travel-related emissions are Scope 3 emissions from commercially operated air and rail; reimbursed personal vehicle and rental car travel; and hotel stays. A small portion of our business travel emissions are Scope 1 emissions from company-owned aircraft and vehicles.\nDirect emissions from owned or controlled sourcesScope 1\nIndirect emissions from the generation of purchased electricityScope 2(a)\nOther indirect emissions sources(b)Emissions Sources(c)Carbon Neutral StrategiesScope 3\n69,570\nMtCO2e(d)9%\n660,601\nMtCO2e(d)86%\n36,169\nMtCO2e(d)5%\nReduce business travel\nPurchase verified carbon \noffsetsPurchased electricity for owned and leased facilities for which the firm controls the energy usage and pays the utility bills\nReduce energy consumption\nInstall on-site renewable energyExecute long-term renewable \nenergy procurement agreements\nPurchase applicable EACs and \nverified carbon offsetsFuel oil to heat buildings, diesel to run generators, jet fuel for company-owned aircraftBusiness travel, including air, rail, reimbursed personal vehicle and rental car travel, as well as hotel stays\nReduce energy consumption\nProcure low-carbon fuels \n(e.g., sustainable aviation fuel)\nPurchase verified carbon \noffsets\n(a)  Scope 2 emissions are location based\n(b)  Includes business travel(c)  List is not exhaustive(d)  \nMetric tons of carbon dioxide equivalent\nBuildings, Branches and Data Centers\nThe largest contributor to our operational GHG footprint is purchased electricity, which is why our strategy for carbon neutral operations is principally focused on reducing energy use and sourcing renewable energy. To that end, in 2017, we set a goal to source renewable energy for 100% of our global power needs on an annual basis, beginning in 2020. We met our goal in 2020 by generating and purchasing renewable energy and corresponding EACs in an amount equivalent to the total megawatt hours (MWh) of electricity that our firm consumed globally throughout the year. We intend to maintain our commitment to carbon neutral operations — and to do so in a way that maximizes positive impact. Moving forward, we will continue to support the development of renewable energy, including by installing on-site renewable energy systems and executing long-term renewable energy procurement agreements. We have set a goal that these solutions will make up 70% or more of our renewable energy procurement, with the remainder satisfied by applicable EACs. In parallel, to drive progress in efficiency and reduce our energy use, in 2021 we announced a new target to cut our Scope 1 and Scope 2 (location-based) emissions by 40% by 2030, over our 2017 baseline.\n29\n2020 Environmental, Social & Governance Report",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 2,
+      "file_type": "pdf",
+      "chunk_index": 1
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-3-chunk-0",
+    "text": "",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 3,
+      "file_type": "pdf",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-3-chunk-1",
+    "text": "\nHighlights of our efforts include the following: \n] Energy efficiency. We have implemented a number of efficiency \nmeasures across our operations. For example, we have installed LED lighting systems at approximately 4,300 branches and 50 commercial offices, reducing lighting-related electricity consumption at each building by an estimated 50%. We have also installed energy-efficient building management systems at over 3,400 branches to better control and monitor energy use at each location. In addition, we recently piloted an artificial intelligence-based building management system overlay, which will provide real-time data and insights to help us further reduce our energy use and GHG footprint of our commercial buildings. \n] On-site renewable energy. Since 2017, we have installed on-site solar generation systems across our global operations, where feasible. This includes installing approximately 30 megawatts (MW) of solar capacity across 900 branches, which are expected to provide about 35% of each location’s power needs. In addition, during 2020 we began installing an additional 12 MW of carport solar capacity at our corporate campus in Columbus, Ohio. Combined with the existing rooftop array, the site will have approximately 14.8 MW of solar capacity and will be able to generate about 75% of its annual power needs. We also recently completed construction of a 2 MW solar array at our Bournemouth, England, campus, which, in combination with thermal energy storage, provides enough energy to power the entire campus during the day. All told, we currently have plans to install 40 MW of solar capacity across our corporate office buildings in the U.S. and the U.K. \n] Off-site renewable energy. Throughout the past year, we signed additional long-term agreements to purchase renewable energy. For example, in 2020 we collaborated with Brookfield Renewable to purchase electricity from hydroelectric sources equivalent to the amount needed to power over 500 facilities, or 90% of our operations, in New York state. This project also pilots an innovative, blockchain-based technology that will match our electricity demand across the state with power generated from Brookfield Renewable’s hydroelectric facilities in real time. \nWe also collaborated with Algonquin Power & Utilities Corp. \non the development of a 108 MW, 22-turbine wind farm in Lee County, Illinois, that will bring almost 350,000 MWh of clean energy to the U.S. grid per year. JPMorgan Chase will purchase approximately 70% of the wind farm’s energy output, equivalent to about 14% of our energy needs globally.Business Travel\nBusiness travel represented approximately 5% of our operational GHG emissions in 2020. During the year, our firm’s business travel was significantly reduced compared to previous years due to the COVID-19 pandemic and, going forward, our objective is to minimize travel when possible by leveraging virtual technology. When we do travel, we aim to reduce our emissions by leveraging lower-carbon options, including by transitioning our entire owned vehicle fleet to electric by 2025. For the remainder of our travel-related emissions, we will purchase verified carbon offsets. In 2020, we expanded the scope of business travel we report — and offset — beyond commercially operated air and rail to include reimbursed personal vehicle and rental car travel, as well as hotel stays. \nAnother way we are working to leverage lower-carbon solutions \nfor our business travel is by seeking to accelerate investment in sustainable aviation fuels (SAF), which have the potential to reduce the carbon intensity of flying by more than 80% compared with conventional jet fuel. In early 2021, we became a founding member of the Sustainable Aviation Buyers Alliance, an initiative working to establish a SAF certificate trading system, which will enable companies like ours that are unable to directly purchase SAF to buy the resulting emission reductions for use toward our sustainability goals — ultimately increasing the demand signal to the SAF market and incentivizing the production of more SAF. In addition, to further demonstrate our support of and demand for SAF, JPMorgan Chase’s corporate flight department helped bring one of the first truckloads of SAF to the Greater New York metropolitan area — making us the first company to partner with our aviation fuel supplier to take such a delivery of SAF.\n30\n2020 Environmental, Social & Governance Report",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 3,
+      "file_type": "pdf",
+      "chunk_index": 1
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-4-chunk-0",
+    "text": "",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 4,
+      "file_type": "pdf",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-4-chunk-1",
+    "text": "\nOur Approach to Carbon Offsets\nCarbon offsets are an important tool that enables companies to invest in projects that reduce GHG emissions and, in many cases, \ncreate valuable social and community co-benefits. At JPMorgan Chase, we purchase offset credits to address emissions that we are unable to abate through efficiency improvements or other measures. We purchase offset credits that have been certified by accredited third parties, which means they are real, additional and independently verified. We also strive to source offset credits that are generated from projects located in areas where JPMorgan Chase has a presence, and that have additional co-benefits. \nReducing Waste and Sourcing Responsibly \nResponsible resource and waste management are important \nelements of our sustainability strategy, helping us reduce our impacts while improving efficiency and reducing costs. Our focus is on reducing our water and waste footprint, coupled with responsible disposal of the waste we produce. To drive progress in these areas, in 2021 we set new targets to reduce our water consumption by 20% by 2030 and internal paper use by 90% by 2025 compared with 2017 baselines. And we have also committed that by the end of 2021 we will source 100% of our paper from certified sources, meaning the products come from responsibly managed forests that provide environmental, social and economic benefits. We work to recycle paper, as well as non-paper waste, throughout our buildings and branches where recycling services are available and economically feasible. We are working to optimize existing recycling services, expand such services to new locations and explore opportunities to bring composting services to more of our corporate locations with cafeterias. We also carefully select vendors to dispose our e-waste responsibly, with 100% diverted from landfills. \nWe recognize that the environmental and social impact of our \noperations extends to our suppliers. As such, we seek to do business with suppliers that share our values and commitment to making a positive impact in the communities where we operate. We encourage our suppliers to develop internal programs, as well as targets, to foster a culture of sustainability. We expect them to conduct their operations in a manner that protects the environment by making reasonable efforts to meet industry best practices and standards with respect to the reduction of energy use, GHG emissions, waste and water use.\n31\n2020 Environmental, Social & Governance Report",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 4,
+      "file_type": "pdf",
+      "chunk_index": 1
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-5-chunk-0",
+    "text": "",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 5,
+      "file_type": "pdf",
+      "chunk_index": 0
+    }
+  },
+  {
+    "id": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf-page-5-chunk-1",
+    "text": "\nENVIRONMENTAL DATA\n2020 2019 2018 2017\nGlobal employee headcount 255,351 256,981 256,105 252,539\nRentable square feeta 58,940,565 57,205,977 57,584,466 58,140,356\nGHG Emissions (MtCO 2e)b\nScope  1 — directc 69,570  81,655  83,101  78,229 \nNatural gas  39,332  46,183  46,488  40,696 \nPropane  149  283  276  233 \nFuel oil  2,994  2,471  3,323  3,081 \nJet fuel  4,013  8,323  8,412  8,916 \nFugitive emissions  23,082  24,395  24,602  25,303 \nScope  2 (location) — indirect  660,601  692,299  739,458  770,704 \nPurchased electricity  656,414  686,626  731,120  763,828 \nPurchased steam and chilled water  4,187  5,673  8,338  6,876 \nTotal Scope  1 and Scope  2 (location)  730,171  773,955  822,559  848,933 \nScope  2 (market) — indirect  4,187  556,142  572,067  596,843 \nPurchased electricity –  550,469  563,728  589,967 \nPurchased steam and chilled water  4,187  5,673  8,338  6,876 \nTotal Scope  1 and Scope  2 (market)  73,757  637,798  655,167  675,073 \nScope  3 (category 6 — business travel)  36,169  181,004  176,356  187,020 \nTotal emissions:  Scope  1, 2 (market) and 3  109,926  818,802  831,524  862,092 \nVerified carbon offset emissions reductions  109,926  189,327  184,769  175,155 \nNet emissions: Scope  1, 2 (market) and 3 –  629,474  646,755  686,937 \nRenewable Power (MWh)\nElectricity production (on-site solar and fuel cells)  17,172  7,743  13,290  6,472 \nContractual instrumentsd 1,679,213  380,901  375,280  370,801 \nProportion of power use from renewable sources (production and instruments) 100% 22% 22% 21%\nEnergy Consumption (MWh)\nDirect Energy\nNatural gas  216,862  254,794  256,623  224,119 \nPropane  692  1,314  1,281  1,081 \nFuel oil  2,013  9,849  13,248  12,283 \nJet fuel  14,965  31,833  32,172  33,447 \nIndirect Energy\nPurchased electricity  1,693,143  1,759,170  1,787,344  1,823,121 \nPurchased steam and chilled water 15,052 25,317 37,143 30,645\nTotal  1,942,728  2,082,277  2,127,812  2,124,697 \nWater Consumption (m3)\nU.S. operationsb 5,035,089  5,091,865  5,731,976  5,611,797 \na JPMorgan Chase utilizes an operational control approach to establish boundaries for our GHG inventory. This includes owned and leased facilities for which we control the energy\n  usage and pay the energy/utility bills directly to the respective utility.\nb Scope 1, 2 and 3 emissions and water consumption have been verified by a third party. See ESG Report Appendices for verification statements. Other data has not been subject to\n  external verification.\nc Scope 1 emissions include emissions from corporate air travel. In 2020, business travel-related emissions from reimbursed personal vehicle and rental car travel, and hotel stays,\n  were added to the scope. In 2019, rail travel was added to the scope. In previous years, only commercial air travel was included.\nd Contractual instruments include RECs from the Buckthorn wind farm PPA, Bengaluru Physical PPA, U.K. renewable energy guarantees of origin\n  (REGOs), Brookfield NY renewable electricity supply procurement, EMEA renewable electricity supply procurement and Mumbai solar and wind tariff.\n32\n2020 Environmental, Social & Governance Report",
+    "metadata": {
+      "source": "docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+      "page": 5,
+      "file_type": "pdf",
+      "chunk_index": 1
+    }
+  }
+]
