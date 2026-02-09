@@ -1,0 +1,27 @@
+Retrieval-Augmented Generation (RAG) is a technique that combines the strengths of retrieval-based and generation-based models to improve the accuracy and relevance of generated text.
+
+Key Components of RAG:
+- Retriever: Searches a knowledge base for relevant documents or passages.
+- Generator: Uses the retrieved information to produce coherent responses.
+- Knowledge Base: A large collection of documents, often vectorized for efficient search.
+
+Benefits:
+- Reduces hallucinations in language models.
+- Provides up-to-date information from external sources.
+- Enhances factual accuracy in responses.
+
+How RAG Works:
+1. User query is encoded into a vector.
+2. Vector search retrieves top-k relevant chunks.
+3. Retrieved chunks are fed into the generator as context.
+4. Generator produces the final answer based on the query and context.
+
+Common Use Cases:
+- Question-answering systems.
+- Chatbots with domain-specific knowledge.
+- Summarization of large documents.
+
+Challenges:
+- Quality of the knowledge base affects performance.
+- Computational cost of embedding large datasets.
+- Handling noisy or irrelevant retrieved information.

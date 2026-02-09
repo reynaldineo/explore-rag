@@ -1,0 +1,94 @@
+2026-01-28 20:43:31,886 - INFO - Loaded 4 documents from docs/
+2026-01-28 20:43:31,886 - INFO - Created 15 chunks from 4 documents
+2026-01-28 20:43:32,415 - INFO - Added 15 chunks to vector store
+2026-01-28 20:43:32,416 - INFO - Vector store saved
+2026-01-28 20:43:53,221 - INFO - Retrieved 5 chunks for query: who is justin bieber
+2026-01-28 20:43:54,489 - INFO - LLM response time: 1.27s
+2026-01-28 20:43:54,489 - INFO - Answered question: who is justin bieber
+2026-01-28 20:43:54,489 - INFO - Session result: {
+  "question": "who is justin bieber",
+  "answer": "I don't know, and here's why. The context doesn't provide any information about how to use RAG or Retrieval-Augmented Generation (RAG) for searching entities like Justin Bieber. The sources seem to be related to models, embeddings, generators, and indexing, but not specifically to entity search or retrieval.\n\nHowever, based on the context of the \"Applications\" section in sample.html, it seems that RAG can be used for customer support chatbots that pull from knowledge bases for accurate replies. But without more specific information about how to use RAG for this purpose, I couldn't provide a direct answer.\n\nIf you have any more information or clarification on how to use RAG for entity search, I'd be happy to try again!",
+  "sources": [
+    "sample.csv",
+    "sample.md",
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 1.2989742755889893,
+  "retrieval_latency": 0.0309906005859375,
+  "generation_latency": 1.2679836750030518
+}
+2026-01-28 20:44:51,674 - INFO - Retrieved 5 chunks for query: do you know about youtube
+2026-01-28 20:44:52,417 - INFO - LLM response time: 0.74s
+2026-01-28 20:44:52,417 - INFO - Answered question: do you know about youtube
+2026-01-28 20:44:52,417 - INFO - Session result: {
+  "question": "do you know about youtube",
+  "answer": "I don't know. The context doesn't mention YouTube specifically, and I couldn't find any direct reference to it in the provided sources (sample.txt, sample.html, sample.md). However, RAG is mentioned as a technique that can be used in chatbots with domain-specific knowledge, which could potentially include information about YouTube.",
+  "sources": [
+    "sample.md",
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 0.7699651718139648,
+  "retrieval_latency": 0.02721261978149414,
+  "generation_latency": 0.7427525520324707
+}
+2026-01-28 20:45:34,491 - INFO - Retrieved 5 chunks for query: what you know
+2026-01-28 20:45:35,599 - INFO - LLM response time: 1.11s
+2026-01-28 20:45:35,600 - INFO - Answered question: what you know
+2026-01-28 20:45:35,600 - INFO - Session result: {
+  "question": "what you know",
+  "answer": "I don't know how to answer this question directly, as it seems to be asking for a demonstration of the RAG (Retrieval-Augmented Generation) system rather than a straightforward answer. However, based on the context provided, I can tell you that the RAG system is designed to reduce hallucinations in language models and provide up-to-date information from external sources.\n\nIf you'd like, I can try to explain how the RAG system works or discuss its applications and challenges. Alternatively, if you have a specific question about the RAG system or its components (e.g., FAISS or Ollama), I'll do my best to answer it based on the provided context.",
+  "sources": [
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 1.1353731155395508,
+  "retrieval_latency": 0.02684307098388672,
+  "generation_latency": 1.108530044555664
+}
+2026-01-28 20:45:47,960 - INFO - Retrieved 5 chunks for query: how rag system work
+2026-01-28 20:45:49,548 - INFO - LLM response time: 1.59s
+2026-01-28 20:45:49,548 - INFO - Answered question: how rag system work
+2026-01-28 20:45:49,548 - INFO - Session result: {
+  "question": "how rag system work",
+  "answer": "According to the context, I don't know how the RAG system works. The sources provide information on the key components of RAG (Retriever and Generator), its benefits, and how to implement it, but they do not explicitly explain the inner workings of the system.\n\nHowever, based on the provided sources, we can infer that the RAG system involves the following steps:\n\n1. **Embedding Layer**: Converts text into dense vectors for similarity search (Source: sample.md).\n2. **Index**: Stores pre-computed embeddings of documents (Source: sample.md).\n3. **Retriever Module**: Performs nearest-neighbor search to find relevant passages (Source: sample.md).\n4. **Generator Module**: A large language model that conditions on retrieved information to produce coherent responses (Source: sample.md).\n\nThese components work together to improve the accuracy and relevance of generated text by grounding responses in real data.\n\nReferences:\n\n* [Sample.md](sample.md)\n* [Sample.html](sample.html)\n* [Sample.txt](sample.txt)",
+  "sources": [
+    "sample.md",
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 1.6154537200927734,
+  "retrieval_latency": 0.02808666229248047,
+  "generation_latency": 1.587367057800293
+}
+2026-01-28 20:46:01,574 - INFO - Retrieved 5 chunks for query: What are future directions for RAG development?
+2026-01-28 20:46:02,362 - INFO - LLM response time: 0.79s
+2026-01-28 20:46:02,362 - INFO - Answered question: What are future directions for RAG development?
+2026-01-28 20:46:02,362 - INFO - Session result: {
+  "question": "What are future directions for RAG development?",
+  "answer": "I don't know, and my reasoning is that there is no explicit mention of future directions in the provided sources. The sources mainly focus on explaining the RAG architecture, its components, benefits, and implementation details. There is no section or paragraph dedicated to discussing potential future developments or research directions for RAG.",
+  "sources": [
+    "sample.md",
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 0.8292145729064941,
+  "retrieval_latency": 0.04199957847595215,
+  "generation_latency": 0.787214994430542
+}
+2026-01-28 20:46:13,047 - INFO - Retrieved 5 chunks for query: What are the key components of RAG?
+2026-01-28 20:46:14,045 - INFO - LLM response time: 1.00s
+2026-01-28 20:46:14,045 - INFO - Answered question: What are the key components of RAG?
+2026-01-28 20:46:14,045 - INFO - Session result: {
+  "question": "What are the key components of RAG?",
+  "answer": "According to [sample.md, Score: 0.64], the key components of RAG are:\n\n1. **Embedding Layer**: Converts text into dense vectors for similarity search.\n2. **Index**: Stores pre-computed embeddings of documents.\n3. **Retriever Module**: Performs nearest-neighbor search to find relevant passages.\n4. **Generator Module**: A large language model that conditions on retrieved information.\n\nNote: The [sample.html] sources do not provide a comprehensive overview of the key components, but rather highlight some benefits and use cases of RAG.",
+  "sources": [
+    "sample.md",
+    "sample.txt",
+    "sample.html"
+  ],
+  "latency": 1.0277228355407715,
+  "retrieval_latency": 0.029656648635864258,
+  "generation_latency": 0.9980661869049072
+}

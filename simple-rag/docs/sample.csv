@@ -1,0 +1,8 @@
+Model,Type,Strengths,Weaknesses,Use Case
+BERT,Embedding,Contextual understanding,Computationally heavy,General NLP
+Sentence Transformers,Embedding,Efficient for sentences,Less deep context,Similarity search
+FAISS,Index,Fast retrieval,Requires pre-computed vectors,Vector search
+GPT-3,Generator,Creative text,Can hallucinate,Pure generation
+RAG,Hybrid,Accurate and creative,Slower inference,Q&A systems
+Pinecone,Index,Cloud-based,Paid service,Scalable indexing
+Llama2,Generator,Open-source,Resource intensive,Local inference

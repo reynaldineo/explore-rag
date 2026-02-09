@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "text": "# RAG Architecture Overview\n\n## Introduction\nRetrieval-Augmented Generation (RAG) integrates retrieval mechanisms with generative models to create more informed and accurate AI responses.\n\n## Core Architecture\n- **Embedding Layer**: Converts text into dense vectors for similarity search.\n- **Index**: Stores pre-computed embeddings of documents.\n- **Retriever Module**: Performs nearest-neighbor search to find relevant passages.\n- **Generator Module**: A large language model that conditions on ret",
+    "source": "docs/sample.md",
+    "metadata": {
+      "file_name": "sample.md"
+    }
+  },
+  {
+    "id": 1,
+    "text": "rch to find relevant passages.\n- **Generator Module**: A large language model that conditions on retrieved context.\n\n## Implementation Steps\n1. **Data Preparation**: Collect and preprocess documents.\n2. **Embedding Generation**: Use models like BERT or Sentence Transformers.\n3. **Indexing**: Build a vector index (e.g., FAISS, Pinecone).\n4. **Query Processing**: Embed query and retrieve top results.\n5. **Generation**: Feed query + context to LLM for response.\n\n## Advantages Over Pure Generation\n-",
+    "source": "docs/sample.md",
+    "metadata": {
+      "file_name": "sample.md"
+    }
+  },
+  {
+    "id": 2,
+    "text": ".\n5. **Generation**: Feed query + context to LLM for response.\n\n## Advantages Over Pure Generation\n- **Factual Grounding**: Pulls from verified sources.\n- **Scalability**: Handles large knowledge bases without retraining.\n- **Customization**: Easy to update with new information.\n\n## Popular Tools and Frameworks\n- **LangChain**: For building RAG pipelines.\n- **LlamaIndex**: Focuses on indexing and retrieval.\n- **Hugging Face Transformers**: For embedding and generation models.\n\n## Future Directio",
+    "source": "docs/sample.md",
+    "metadata": {
+      "file_name": "sample.md"
+    }
+  },
+  {
+    "id": 3,
+    "text": "retrieval.\n- **Hugging Face Transformers**: For embedding and generation models.\n\n## Future Directions\n- Hybrid retrieval (sparse + dense).\n- Multi-modal RAG (text + images).\n- Efficient indexing for real-time applications.",
+    "source": "docs/sample.md",
+    "metadata": {
+      "file_name": "sample.md"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Retrieval-Augmented Generation (RAG) is a technique that combines the strengths of retrieval-based and generation-based models to improve the accuracy and relevance of generated text.\n\nKey Components of RAG:\n- Retriever: Searches a knowledge base for relevant documents or passages.\n- Generator: Uses the retrieved information to produce coherent responses.\n- Knowledge Base: A large collection of documents, often vectorized for efficient search.\n\nBenefits:\n- Reduces hallucinations in language mode",
+    "source": "docs/sample.txt",
+    "metadata": {
+      "file_name": "sample.txt"
+    }
+  },
+  {
+    "id": 5,
+    "text": "cuments, often vectorized for efficient search.\n\nBenefits:\n- Reduces hallucinations in language models.\n- Provides up-to-date information from external sources.\n- Enhances factual accuracy in responses.\n\nHow RAG Works:\n1. User query is encoded into a vector.\n2. Vector search retrieves top-k relevant chunks.\n3. Retrieved chunks are fed into the generator as context.\n4. Generator produces the final answer based on the query and context.\n\nCommon Use Cases:\n- Question-answering systems.\n- Chatbots w",
+    "source": "docs/sample.txt",
+    "metadata": {
+      "file_name": "sample.txt"
+    }
+  },
+  {
+    "id": 6,
+    "text": "answer based on the query and context.\n\nCommon Use Cases:\n- Question-answering systems.\n- Chatbots with domain-specific knowledge.\n- Summarization of large documents.\n\nChallenges:\n- Quality of the knowledge base affects performance.\n- Computational cost of embedding large datasets.\n- Handling noisy or irrelevant retrieved information.",
+    "source": "docs/sample.txt",
+    "metadata": {
+      "file_name": "sample.txt"
+    }
+  },
+  {
+    "id": 7,
+    "text": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>RAG Benefits and Applications</title>\n</head>\n<body>\n    <h1>Benefits of Retrieval-Augmented Generation</h1>\n\n    <p>RAG enhances AI systems by combining retrieval and generation, leading to more reliable and context-aware outputs.</p>\n\n    <h2>Key Benefits</h2>\n    <ul>\n        <li><strong>Improved Accuracy</strong>: Reduces errors and hallucinations by grounding responses in real data.</li>\n        <li><strong>Up-to-",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 8,
+    "text": "duces errors and hallucinations by grounding responses in real data.</li>\n        <li><strong>Up-to-Date Information</strong>: Can incorporate the latest knowledge without model retraining.</li>\n        <li><strong>Cost-Effective</strong>: Leverages existing documents instead of training large models from scratch.</li>\n        <li><strong>Explainability</strong>: Provides sources for answers, increasing trust.</li>\n    </ul>\n\n    <h2>Applications</h2>\n    <ul>\n        <li><strong>Customer Suppor",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 9,
+    "text": "easing trust.</li>\n    </ul>\n\n    <h2>Applications</h2>\n    <ul>\n        <li><strong>Customer Support</strong>: Chatbots that pull from knowledge bases for accurate replies.</li>\n        <li><strong>Research Assistance</strong>: Helps in summarizing and answering questions from scientific papers.</li>\n        <li><strong>Educational Tools</strong>: Tutors that reference textbooks or articles.</li>\n        <li><strong>Content Creation</strong>: Generates articles with citations from reliable sour",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 10,
+    "text": "\n        <li><strong>Content Creation</strong>: Generates articles with citations from reliable sources.</li>\n    </ul>\n\n    <h2>Comparison with Traditional Methods</h2>\n    <table border=\"1\">\n        <tr>\n            <th>Method</th>\n            <th>Strengths</th>\n            <th>Weaknesses</th>\n        </tr>\n        <tr>\n            <td>Pure Generation</td>\n            <td>Creative, flexible</td>\n            <td>Prone to inaccuracies</td>\n        </tr>\n        <tr>\n            <td>Retrieval-Onl",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 11,
+    "text": "\n            <td>Prone to inaccuracies</td>\n        </tr>\n        <tr>\n            <td>Retrieval-Only</td>\n            <td>Accurate, factual</td>\n            <td>Lacks synthesis</td>\n        </tr>\n        <tr>\n            <td>RAG</td>\n            <td>Balanced accuracy and creativity</td>\n            <td>Requires good retrieval system</td>\n        </tr>\n    </table>\n\n    <h2>Getting Started with RAG</h2>\n    <p>To implement RAG, start with small datasets and gradually scale. Use open-source tools",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 12,
+    "text": "G</h2>\n    <p>To implement RAG, start with small datasets and gradually scale. Use open-source tools like FAISS for indexing and Ollama for local inference.</p>\n</body>\n</html>",
+    "source": "docs/sample.html",
+    "metadata": {
+      "file_name": "sample.html"
+    }
+  },
+  {
+    "id": 13,
+    "text": "Model,Type,Strengths,Weaknesses,Use Case\nBERT,Embedding,Contextual understanding,Computationally heavy,General NLP\nSentence Transformers,Embedding,Efficient for sentences,Less deep context,Similarity search\nFAISS,Index,Fast retrieval,Requires pre-computed vectors,Vector search\nGPT-3,Generator,Creative text,Can hallucinate,Pure generation\nRAG,Hybrid,Accurate and creative,Slower inference,Q&A systems\nPinecone,Index,Cloud-based,Paid service,Scalable indexing\nLlama2,Generator,Open-source,Resource in",
+    "source": "docs/sample.csv",
+    "metadata": {
+      "file_name": "sample.csv"
+    }
+  },
+  {
+    "id": 14,
+    "text": "s\nPinecone,Index,Cloud-based,Paid service,Scalable indexing\nLlama2,Generator,Open-source,Resource intensive,Local inference",
+    "source": "docs/sample.csv",
+    "metadata": {
+      "file_name": "sample.csv"
+    }
+  }
+]
