@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "precision@k": 0.75,
+    "recall@k": 0.75,
+    "mrr": 1.0,
+    "ndcg@k": 1.0,
+    "exact_match": 0.0,
+    "rouge_l": 0.4666666666666667,
+    "bleu": 0.17411764163789267,
+    "semantic_similarity": 0.3674789570086433,
+    "latency_seconds": 0.44150781631469727,
+    "token_count": 38.5
+  },
+  "failure_analysis": {
+    "Generation failure": 2
+  },
+  "results": [
+    {
+      "question": "What is enterprise billing?",
+      "difficulty": "easy",
+      "retrieval_metrics": {
+        "precision@k": 0.5,
+        "recall@k": 0.5,
+        "mrr": 1.0,
+        "ndcg@k": 1.0
+      },
+      "generation_metrics": {
+        "exact_match": 0.0,
+        "rouge_l": 0.9333333333333333,
+        "bleu": 0.34823528327578535,
+        "semantic_similarity": 0.6199035036761835
+      },
+      "latency_seconds": 0.4918222427368164,
+      "token_count": 35,
+      "passed": false,
+      "failure_reason": "Generation failure"
+    },
+    {
+      "question": "What are the key principles of enterprise billing?",
+      "difficulty": "medium",
+      "retrieval_metrics": {
+        "precision@k": 1.0,
+        "recall@k": 1.0,
+        "mrr": 1.0,
+        "ndcg@k": 1.0
+      },
+      "generation_metrics": {
+        "exact_match": 0.0,
+        "rouge_l": 0.0,
+        "bleu": 0,
+        "semantic_similarity": 0.11505441034110309
+      },
+      "latency_seconds": 0.3911933898925781,
+      "token_count": 42,
+      "passed": false,
+      "failure_reason": "Generation failure"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+question,difficulty,precision@k,recall@k,mrr,ndcg@k,exact_match,rouge_l,bleu,semantic_similarity,latency_seconds,token_count,passed,failure_reason
+What is enterprise billing?,easy,0.5,0.5,1.0,1.0,0.0,0.9333333333333333,0.6395028446903569,0.7824452842019506,0.33004307746887207,21,True,
+What are the key principles of enterprise billing?,medium,1.0,1.0,1.0,1.0,0.0,0.5833333333333334,0.1777011473824655,0.47353909002710903,0.31169915199279785,27,False,Generation failure

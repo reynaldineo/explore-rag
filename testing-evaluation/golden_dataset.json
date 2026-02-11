@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is enterprise billing?",
+    "expected_answer": "Enterprise billing refers to the complex process of invoicing and payment collection for large organizations.",
+    "relevant_chunks": ["25", "26"],
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are the key principles of enterprise billing?",
+    "expected_answer": "The key principles of enterprise billing are Accuracy, Scalability, Flexibility, Compliance, Automation",
+    "relevant_chunks": ["7", "34"],
+    "difficulty": "medium"
+  }
+]
