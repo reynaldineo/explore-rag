@@ -1,0 +1,69 @@
+DocLayNet:ALargeHuman-AnnotatedDatasetforDocument-LayoutAnalysis KDD’22,August14–18,2022,Washington,DC,USA
+Table 3: Performance of a Mask R-CNN R50 network in Table4:PerformanceofaMaskR-CNNR50networkwith
+mAP@0.5-0.95scorestrainedonDocLayNetwithdifferent document-wise and page-wise split for different label sets.
+~
+classlabelsets.Thereducedlabelsetswereobtainedbyei- Naive page-wise split will result in 10% point improve-
+therdown-mappingordroppinglabels. ment.
+Class-count 11 6 5 4 Class-count 11 5
+Caption 68 Text Text Text Split Doc Page Doc Page
+Footnote 71 Text Text Text Caption 68 83
+Formula 60 Text Text Text Footnote 71 84
+List-item 81 Text 82 Text Formula 60 66
+Page-footer 62 62 - - List-item 81 88 82 88
+Page-header 72 68 - - Page-footer 62 89
+Picture 72 72 72 72 Page-header 72 90
+Section-header 68 67 69 68 Picture 72 82 72 82
+Table 82 83 82 82 Section-header 68 83 69 83
+Text 85 84 84 84 Table 82 89 82 90
+Title 77 Sec.-h. Sec.-h. Sec.-h. Text 85 91 84 90
+Overall 72 73 78 77 Title 77 81
+All 72 84 78 87
+LearningCurve
+listsinPubLayNet(groupedlist-items)versusDocLayNet(separate
+Oneofthefundamentalquestionsrelatedtoanydatasetisifitis
+list-items),thelabelsetofsize4istheclosesttoPubLayNet,inthe
+“largeenough”.ToanswerthisquestionforDocLayNet,weper-
+assumptionthattheList isdown-mappedtoText inPubLayNet.
+formedadataablationstudyinwhichweevaluatedaMaskR-CNN
+TheresultsinTable3showthatthepredictionaccuracyonthe
+modeltrainedonincreasingfractionsoftheDocLayNetdataset.
+remainingclasslabelsdoesnotchangesignificantlywhenother
+AscanbeseeninFigure5,themAPscorerisessharplyinthebe-
+classesaremergedintothem.Theoverallmacro-averageimproves
+ginningandeventuallylevelsout.Toestimatetheerror-baronthe
+byaround5%,inparticularwhenPage-footerandPage-headerare
+metrics,weranthetrainingfivetimesontheentiredata-set.This
+excluded.
+resultedina1%error-bar,depictedbytheshadedareainFigure5.
+IntheinsetofFigure5,weshowtheexactsamedata-points,but
+ImpactofDocumentSplitinTrainandTestSet
+withalogarithmicscaleonthex-axis.Asisexpected,themAP
+scoreincreaseslinearlyasafunctionofthedata-sizeintheinset. ManydocumentsinDocLayNethaveauniquestyling.Inorder
+Thecurveultimatelyflattensoutbetweenthe80%and100%mark, toavoidoverfittingonaparticularstyle,wehavesplitthetrain-,
+withthe80%markfallingwithintheerror-barsofthe100%mark. test-andvalidation-setsofDocLayNetondocumentboundaries,i.e.
+Thisprovidesagoodindicationthatthemodelwouldnotimprove everydocumentcontributespagestoonlyoneset.Tothebestof
+significantlybyyetincreasingthedatasize.Rather,itwouldprob- ourknowledge,thiswasnotconsideredinPubLayNetorDocBank.
+ablybenefitmorefromimproveddataconsistency(asdiscussed Toquantifyhowthisaffectsmodelperformance,wetrainedand
+inSection3),dataaugmentationmethods[23],ortheadditionof evaluatedaMaskR-CNNR50modelonamodifieddatasetversion.
+moredocumentcategoriesandstyles. Here,thetrain-,test-andvalidation-setswereobtainedbyaran-
+domiseddrawovertheindividualpages.AscanbeseeninTable4,
+ImpactofClassLabels thedifferenceinmodelperformanceissurprisinglylarge:page-
+wisesplittinggains1˜0%inmAPoverthedocument-wisesplitting.
+Thechoiceandnumberoflabelscanhaveasignificanteffecton
+Thus,randompage-wisesplittingofDocLayNetcaneasilylead
+theoverallmodelperformance.SincePubLayNet,DocBankand
+toaccidentaloverestimationofmodelperformanceandshouldbe
+DocLayNetallhavedifferentlabelsets,itisofparticularinterestto
+avoided.
+understandandquantifythisinfluenceofthelabelsetonthemodel
+performance.Weinvestigatethisbyeitherdown-mappinglabels
+DatasetComparison
+intomorecommonones(e.g.Caption→Text)orexcludingthem
+from the annotations entirely. Furthermore, it must be stressed Throughoutthispaper,weclaimthatDocLayNet’swidervarietyof
+thatallmappingsandexclusionswereperformedonthedatabe- documentlayoutsleadstomorerobustlayoutdetectionmodels.In
+foremodeltraining.InTable3,wepresentthemAPscoresfora Table5,weprovideevidenceforthat.Wetrainedmodelsoneach
+MaskR-CNNR50networkondifferentlabelsets.Wherealabel oftheavailabledatasets(PubLayNet,DocBankandDocLayNet)
+isdown-mapped,weshowitscorrespondinglabel,otherwiseit andevaluatedthemonthetestsetsoftheotherdatasets.Dueto
+wasexcluded.Wepresentthreedifferentlabelsets,with6,5and4 thedifferentlabelsetsandannotationstyles,adirectcomparison
+differentlabelsrespectively.Thesetof5labelscontainsthesame isnotpossible.Hence,wefocussedonthecommonlabelsamong
+labelsasPubLayNet.However,duetothedifferentdefinitionof thedatasets.BetweenPubLayNetandDocLayNet,thesearePicture,

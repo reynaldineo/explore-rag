@@ -1,0 +1,307 @@
+{
+  "timestamp": "2026-02-07T17:06:20.128578",
+  "summary": {
+    "avg_text_completeness": 77.99,
+    "avg_structure_score": 14.29,
+    "avg_metadata_score": 11.43,
+    "total_tools": 7,
+    "max_word_count": 2518,
+    "min_word_count": 0,
+    "best_completeness_tool": "Docling",
+    "best_structure_tool": "Docling",
+    "best_metadata_tool": "Docling"
+  },
+  "results": [
+    {
+      "tool_name": "Docling",
+      "text": "## Operational Sustainability\n\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. Doing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given the nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 corporate buildings, bank branches and data centers.\n\nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental and social risks associated with our financing activities, see page 14; for more about how we are helping accelerate the transition to a lowcarbon economy, see page 47.\n\n## Our Operational Sustainability Targets\n\nWe have developed the following targets to drive progress on operational sustainability:\n\n<!-- image -->\n\n<!-- image -->\n\n<!-- image -->\n\nMaintain carbon neutral operations annually, starting in 2020\n\nSatisf...",
+      "text_length": 18240,
+      "metadata": {
+        "num_pages": 5,
+        "title": "",
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf"
+      },
+      "processing_time_ms": 7385.961055755615,
+      "structural_elements": {
+        "headings": [
+          "## Operational Sustainability",
+          "## Our Operational Sustainability Targets",
+          "## Achieving Carbon Neutral Operations",
+          "## Our 2020 Operational GHG Footprint",
+          "## Scope 1",
+          "## Buildings, Branches and Data Centers",
+          "## Scope 2 (a)",
+          "## Scope 3",
+          "## Business Travel",
+          "## Our Approach to Carbon Offsets"
+        ],
+        "num_headings": 12,
+        "num_tables": 1,
+        "num_lists": 18,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "Unstructured",
+      "text": "Operational Sustainability\n\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. Doing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given the nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 corporate buildings, bank branches and data centers.\n\nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental and social risks associated with our financing activities, see page 14; for more about how we are helping accelerate the transition to a low- carbon economy, see page 47.\n\nOur Operational Sustainability Targets\n\nWe have developed the following targets to drive progress on operational sustainability:\n\nMaintain carbon neutral operations annually, starting in 2020\n\nSource renewable energy for 100% of our global power needs...",
+      "text_length": 16194,
+      "metadata": {
+        "num_elements": 200,
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf"
+      },
+      "processing_time_ms": 2571.509838104248,
+      "structural_elements": {
+        "headings": [
+          "Operational Sustainability",
+          "Our Operational Sustainability Targets",
+          "Reduce global water consumption by 20% by 2030 vs. a 2017 baseline",
+          "Reduce office paper use by 90% by 2025 vs. a 2017 baseline",
+          "Divert 100% of e-waste from landfills",
+          "Achieving Carbon Neutral Operations",
+          "Our 2020 Operational GHG Footprint",
+          "Scope 2(a) Indirect emissions from the generation of purchased electricity",
+          "Scope 3 Other indirect emissions sources(b)",
+          "i"
+        ],
+        "num_headings": 48,
+        "num_tables": 0,
+        "num_lists": 2,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "LayoutLM",
+      "text": "Operational Sustainability\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. \nDoing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given \nthe nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 \ncorporate buildings, bank branches and data centers. \nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental \nand social risks associated with our financing activities, see page 14; for more about how we are helping accelerate the transition to a low-\ncarbon economy, see page 47.\nOur Operational Sustainability Targets\nWe have developed the following targets to drive progress on operational sustainability:\nMaintain carbon neutral \noperations annually, \nstarting in 2020\nSource renewable energy for \n100% of our global power nee...",
+      "text_length": 16434,
+      "metadata": {
+        "num_pages": 5,
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "note": "Using PyMuPDF backend for text extraction (LayoutLM for structure)"
+      },
+      "processing_time_ms": 322.8757381439209,
+      "structural_elements": {
+        "headings": [
+          "ENVIRONMENTAL DATA"
+        ],
+        "num_headings": 1,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PaddleOCR",
+      "text": "",
+      "text_length": 0,
+      "metadata": {
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf"
+      },
+      "processing_time_ms": 6352.036714553833,
+      "structural_elements": {
+        "headings": [],
+        "num_headings": 0,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": "Unknown argument: show_log",
+      "success": false
+    },
+    {
+      "tool_name": "LlamaIndex",
+      "text": "Operational Sustainability\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. \nDoing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given \nthe nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 \ncorporate buildings, bank branches and data centers. \nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental \nand social risks associated with our financing activities, see page 14 ; for more about how we are helping accelerate the transition to a low-\ncarbon economy, see page 47.\nOur Operational Sustainability Targets\nWe have developed the following targets to drive progress on operational sustainability:\nMaintain carbon neutral \noperations annually, \nstarting in 2020\nSource renewable energy for \n100% of our global power ne...",
+      "text_length": 16302,
+      "metadata": {
+        "num_documents": 5,
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "page_label": "1",
+        "file_name": "sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "file_path": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "file_type": "application/pdf",
+        "file_size": 201663,
+        "creation_date": "2026-02-03",
+        "last_modified_date": "2026-02-03"
+      },
+      "processing_time_ms": 603.2624244689941,
+      "structural_elements": {
+        "headings": [],
+        "num_headings": 0,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PyMuPDF",
+      "text": "Operational Sustainability\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy. \nDoing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given \nthe nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500 \ncorporate buildings, bank branches and data centers. \nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental \nand social risks associated with our financing activities, see page 14; for more about how we are helping accelerate the transition to a low-\ncarbon economy, see page 47.\nOur Operational Sustainability Targets\nWe have developed the following targets to drive progress on operational sustainability:\nMaintain carbon neutral \noperations annually, \nstarting in 2020\nSource renewable energy for \n100% of our global power nee...",
+      "text_length": 16434,
+      "metadata": {
+        "num_pages": 5,
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "creator": ""
+      },
+      "processing_time_ms": 21.901607513427734,
+      "structural_elements": {
+        "headings": [
+          "Operational Sustainability",
+          "Achieving Carbon Neutral Operations",
+          "9%",
+          "86%",
+          "5%",
+          "Reducing Waste and Sourcing Responsibly "
+        ],
+        "num_headings": 6,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PDFPlumber",
+      "text": "Operational Sustainability\nMinimizing the environmental impact of our physical operations is an important part of our overall sustainability strategy.\nDoing so supports our commitment to operating responsibly, enhances the resiliency of our firm and reduces costs. Given\nthe nature of our business, our direct environmental impacts stem primarily from the operation of our more than 5,500\ncorporate buildings, bank branches and data centers.\nThis section focuses on the operational components of our sustainability strategy. For more on how we are managing the environmental\nand social risks associated with our financing activities, see page 14; for more about how we are helping accelerate the transition to a low-\ncarbon economy, see page 47.\nOur Operational Sustainability Targets\nWe have developed the following targets to drive progress on operational sustainability:\nMaintain carbon neutral Source renewable energy for Reduce Scope 1 and Scope 2\noperations annually, 100% of our global power n...",
+      "text_length": 15969,
+      "metadata": {
+        "num_pages": 5,
+        "source": "../docs/sample-5page-jpmc-esg-report-2020-pages.pdf",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "creator": ""
+      },
+      "processing_time_ms": 757.6906681060791,
+      "structural_elements": {
+        "headings": [
+          "ENVIRONMENTAL DATA"
+        ],
+        "num_headings": 1,
+        "num_tables": 1,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": [
+          "test_output_jpmc/PDFPlumber/tables/page1_table0.csv"
+        ]
+      },
+      "error": null,
+      "success": true
+    }
+  ],
+  "metrics": [
+    {
+      "tool_name": "Docling",
+      "text_completeness_score": 100.0,
+      "structure_score": 47,
+      "metadata_score": 20.0,
+      "word_count": 2518,
+      "char_count": 18240,
+      "num_headings": 12,
+      "num_tables": 1,
+      "num_lists": 18,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "Unstructured",
+      "text_completeness_score": 88.78,
+      "structure_score": 32,
+      "metadata_score": 0.0,
+      "word_count": 2440,
+      "char_count": 16194,
+      "num_headings": 48,
+      "num_tables": 0,
+      "num_lists": 2,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "LayoutLM",
+      "text_completeness_score": 90.1,
+      "structure_score": 2,
+      "metadata_score": 20.0,
+      "word_count": 2413,
+      "char_count": 16434,
+      "num_headings": 1,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 3
+    },
+    {
+      "tool_name": "PaddleOCR",
+      "text_completeness_score": 0.0,
+      "structure_score": 0.0,
+      "metadata_score": 0.0,
+      "word_count": 0,
+      "char_count": 0,
+      "num_headings": 0,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 1
+    },
+    {
+      "tool_name": "LlamaIndex",
+      "text_completeness_score": 89.38,
+      "structure_score": 0,
+      "metadata_score": 0.0,
+      "word_count": 2414,
+      "char_count": 16302,
+      "num_headings": 0,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 9
+    },
+    {
+      "tool_name": "PyMuPDF",
+      "text_completeness_score": 90.1,
+      "structure_score": 12,
+      "metadata_score": 20.0,
+      "word_count": 2413,
+      "char_count": 16434,
+      "num_headings": 6,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "PDFPlumber",
+      "text_completeness_score": 87.55,
+      "structure_score": 7,
+      "metadata_score": 20.0,
+      "word_count": 2409,
+      "char_count": 15969,
+      "num_headings": 1,
+      "num_tables": 1,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 2
+    }
+  ]
+}

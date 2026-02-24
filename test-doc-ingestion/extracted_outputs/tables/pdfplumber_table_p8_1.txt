@@ -1,0 +1,22 @@
+Trainingon	labels	Testingon
+PLN DB DLN
+PubLayNet(PLN)	Figure
+Sec-header
+Table
+Text	96 43 23
+87 - 32
+95 24 49
+96 - 42
+	total	93 34 30
+DocBank(DB)	Figure
+Table	77 71 31
+19 65 22
+	total	48 68 27
+DocLayNet(DLN)	Figure
+Sec-header
+Table
+Text	67 51 72
+53 - 68
+87 43 82
+77 - 84
+	total	59 47 78

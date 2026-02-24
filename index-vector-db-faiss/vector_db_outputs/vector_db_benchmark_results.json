@@ -1,0 +1,48 @@
+{
+  "build_results": {
+    "flat": {
+      "build_time_seconds": 86.037,
+      "index_memory_bytes": 105959424
+    },
+    "ivf": {
+      "build_time_seconds": 0.541,
+      "index_memory_bytes": 188882944
+    },
+    "hnsw": {
+      "build_time_seconds": 0.499,
+      "index_memory_bytes": 219918336
+    }
+  },
+  "search_results": {
+    "flat": {
+      "avg_latency_ms": 0.626,
+      "p95_latency_ms": 0.937
+    },
+    "ivf": {
+      "avg_latency_ms": 0.233,
+      "p95_latency_ms": 0.306
+    },
+    "hnsw": {
+      "avg_latency_ms": 0.238,
+      "p95_latency_ms": 0.332
+    }
+  },
+  "recall_results": {
+    "ivf_vs_flat": 0.912,
+    "hnsw_vs_flat": 1.0
+  },
+  "filter_results": {
+    "flat_filtered": {
+      "avg_latency_ms": 0.635,
+      "p95_latency_ms": 1.135
+    },
+    "ivf_filtered": {
+      "avg_latency_ms": 0.225,
+      "p95_latency_ms": 0.321
+    },
+    "hnsw_filtered": {
+      "avg_latency_ms": 0.229,
+      "p95_latency_ms": 0.326
+    }
+  }
+}

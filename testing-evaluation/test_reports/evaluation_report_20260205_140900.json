@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "precision@k": 0.5,
+    "recall@k": 0.5,
+    "mrr": 0.5,
+    "ndcg@k": 0.5,
+    "exact_match": 0.5,
+    "rouge_l": 0.5,
+    "bleu": 0.5,
+    "semantic_similarity": 0.5000000000000001,
+    "latency_seconds": 2.384185791015625e-07,
+    "token_count": 120.0
+  },
+  "failure_analysis": {
+    "Retrieval failure": 1
+  },
+  "results": [
+    {
+      "question": "What is the refund policy?",
+      "difficulty": "easy",
+      "retrieval_metrics": {
+        "precision@k": 1.0,
+        "recall@k": 1.0,
+        "mrr": 1.0,
+        "ndcg@k": 1.0
+      },
+      "generation_metrics": {
+        "exact_match": 1.0,
+        "rouge_l": 1.0,
+        "bleu": 1.0,
+        "semantic_similarity": 1.0000000000000002
+      },
+      "latency_seconds": 2.384185791015625e-07,
+      "token_count": 120,
+      "passed": true,
+      "failure_reason": ""
+    },
+    {
+      "question": "Who is eligible for a refund?",
+      "difficulty": "medium",
+      "retrieval_metrics": {
+        "precision@k": 0.0,
+        "recall@k": 0.0,
+        "mrr": 0.0,
+        "ndcg@k": 0.0
+      },
+      "generation_metrics": {
+        "exact_match": 0.0,
+        "rouge_l": 0.0,
+        "bleu": 0,
+        "semantic_similarity": 0.0
+      },
+      "latency_seconds": 2.384185791015625e-07,
+      "token_count": 120,
+      "passed": false,
+      "failure_reason": "Retrieval failure"
+    }
+  ]
+}

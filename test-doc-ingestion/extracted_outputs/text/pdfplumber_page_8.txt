@@ -1,0 +1,81 @@
+KDD’22,August14–18,2022,Washington,DC,USA BirgitPfitzmann,ChristophAuer,MicheleDolfi,AhmedS.Nassar,andPeterStaar
+Table5:PredictionPerformance(mAP@0.5-0.95)ofaMask 6 CONCLUSION
+R-CNNR50networkacrossthePubLayNet,DocBank&Do-
+Inthispaper,wepresentedtheDocLayNetdataset.Itprovidesthe
+cLayNetdata-sets.Byevaluatingoncommonlabelclassesof
+documentconversionandlayoutanalysisresearchcommunitya
+eachdataset,weobservethattheDocLayNet-trainedmodel
+newandchallengingdatasettoimproveandfine-tunenovelML
+hasmuchlesspronouncedvariationsinperformanceacross
+methodson.Incontrasttomanyotherdatasets,DocLayNetwas
+alldatasets.
+created by human annotation in order to obtain reliable layout
+ground-truthonawidevarietyofpublication-andtypesetting-
+styles.Includingalargeproportionofdocumentsoutsidethescien-
+Testingon tificpublishingdomainaddssignificantvalueinthisrespect.
+Trainingon labels PLN DB DLN Fromthedataset,wehavederivedontheonehandreference
+Figure 96 43 23 metricsforhumanperformanceondocument-layoutannotation
+Sec-header 87 - 32 (throughdoubleandtripleannotations)andontheotherhandeval-
+PubLayNet(PLN) Table 95 24 49 uatedthebaselineperformanceofcommonlyusedobjectdetection
+Text 96 - 42 methods.Wealsoillustratedtheimpactofvariousdataset-related
+total 93 34 30 aspectsonmodelperformancethroughdata-ablationexperiments,
+Figure 77 71 31 bothfromasizeandclass-labelperspective.Lastbutnotleast,we
+DocBank(DB) Table 19 65 22 comparedtheaccuracyofmodelstrainedonotherpublicdatasets
+total 48 68 27 andshowedthatDocLayNettrainedmodelsaremorerobust.
+Figure 67 51 72 Todate,thereisstillasignificantgapbetweenhumanandML
+Sec-header 53 - 68 accuracyonthelayoutinterpretationtask,andwehopethatthis
+DocLayNet(DLN) Table 87 43 82 workwillinspiretheresearchcommunitytoclosethatgap.
+Text 77 - 84
+total 59 47 78
+REFERENCES
+[1] MaxGöbel,TamirHassan,ErmelindaOro,andGiorgioOrsi. Icdar2013table
+competition. In201312thInternationalConferenceonDocumentAnalysisand
+Recognition,pages1449–1453,2013.
+[2] ChristianClausner,ApostolosAntonacopoulos,andStefanPletschacher. Ic-
+dar2017 competition on recognition of documents with complex layouts -
+Section-header,TableandText.Beforetraining,weeithermapped rdcl2017.In201714thIAPRInternationalConferenceonDocumentAnalysisand
+Recognition(ICDAR),volume01,pages1404–1410,2017.
+orexcludedDocLayNet’sotherlabelsasspecifiedintable3,and [3] HervéDéjean,Jean-LucMeunier,LiangcaiGao,YilunHuang,YuFang,Florian
+alsoPubLayNet’sListtoText.Notethatthedifferentclusteringof Kleber,andEva-MariaLang.ICDAR2019CompetitiononTableDetectionand
+Recognition(cTDaR),April2019.http://sac.founderit.com/.
+lists(bylist-elementvs.wholelistobjects)naturallydecreasesthe
+[4] AntonioJimenoYepes,PeterZhong,andDouglasBurdick. Competitionon
+mAPscoreforText. scientificliteratureparsing. InProceedingsoftheInternationalConferenceon
+ForcomparisonofDocBankwithDocLayNet,wetrainedonly DocumentAnalysisandRecognition,ICDAR,pages605–617.LNCS12824,Springer-
+Verlag,sep2021.
+onPictureandTableclustersofeachdataset.WehadtoexcludeText
+[5] LoganMarkewich,HaoZhang,YubinXing,NavidLambert-Shirzad,JiangZhexin,
+becausesuccessiveparagraphsareoftengroupedtogetherintoa RoyLee,ZhiLi,andSeok-BumKo.Segmentationfordocumentlayoutanalysis:
+singleobjectinDocBank.Thisparagraphgroupingisincompatible notdeadyet.InternationalJournalonDocumentAnalysisandRecognition(IJDAR),
+pages1–11,012022.
+withtheindividualparagraphsofDocLayNet.Ascanbeseenin [6] XuZhong,JianbinTang,andAntonioJimeno-Yepes.Publaynet:Largestdataset
+Table5,DocLayNettrainedmodelsyieldbetterperformancecom- everfordocumentlayoutanalysis.InProceedingsoftheInternationalConference
+onDocumentAnalysisandRecognition,ICDAR,pages1015–1022,sep2019.
+paredtothepreviousdatasets.Itisnoteworthythatthemodels
+[7] MinghaoLi,YihengXu,LeiCui,ShaohanHuang,FuruWei,ZhoujunLi,and
+trainedonPubLayNetandDocBankperformverywellontheir MingZhou.Docbank:Abenchmarkdatasetfordocumentlayoutanalysis.In
+owntestset,buthaveamuchlowerperformanceontheforeign Proceedingsofthe28thInternationalConferenceonComputationalLinguistics,
+COLING,pages949–960.InternationalCommitteeonComputationalLinguistics,
+datasets.WhilethisalsoappliestoDocLayNet,thedifferenceis
+dec2020.
+farlesspronounced.ThusweconcludethatDocLayNettrained [8] RiazAhmad,MuhammadTanvirAfzal,andM.Qadir. Informationextraction
+modelsareoverallmorerobustandwillproducebetterresultsfor frompdfsourcesbasedonrule-basedsystemusingintegratedformats.InSemWe-
+bEval@ESWC,2016.
+challenging,unseenlayouts. [9] RossB.Girshick,JeffDonahue,TrevorDarrell,andJitendraMalik.Richfeature
+hierarchiesforaccurateobjectdetectionandsemanticsegmentation. InIEEE
+ConferenceonComputerVisionandPatternRecognition,CVPR,pages580–587.
+ExamplePredictions IEEEComputerSociety,jun2014.
+[10] RossB.Girshick.FastR-CNN.In2015IEEEInternationalConferenceonComputer
+Toconcludethissection,weillustratethequalityoflayoutpredic- Vision,ICCV,pages1440–1448.IEEEComputerSociety,dec2015.
+[11] ShaoqingRen,KaimingHe,RossGirshick,andJianSun.Fasterr-cnn:Towards
+tionsonecanexpectfromDocLayNet-trainedmodelsbyproviding
+real-timeobjectdetectionwithregionproposalnetworks.IEEETransactionson
+aselectionofexampleswithoutanyfurtherpost-processingap- PatternAnalysisandMachineIntelligence,39(6):1137–1149,2017.
+plied.Figure6showsselectedlayoutpredictionsonpagesfromthe [12] KaimingHe,GeorgiaGkioxari,PiotrDollár,andRossB.Girshick.MaskR-CNN.
+InIEEEInternationalConferenceonComputerVision,ICCV,pages2980–2988.
+test-setofDocLayNet.Resultslookdecentingeneralacrossdocu-
+IEEEComputerSociety,Oct2017.
+mentcategories,howeveronecanalsoobservemistakessuchas [13] GlennJocher,AlexStoken,AyushChaurasia,JirkaBorovec,NanoCode012,
+overlappingclustersofdifferentclasses,orentirelymissingboxes TaoXie,YonghyeKwon,KalenMichael,LiuChangyu,JiacongFang,AbhiramV,
+Laughing,tkianai,yxNONG,PiotrSkalski,AdamHogan,JebastinNadar,imyhxy,
+duetolowconfidence. LorenzoMammana,AlexWang,CristiFati,DiegoMontes,JanHajek,Laurentiu

@@ -1,0 +1,2 @@
+(Mask R-CNN R50, R101-FPN 3x, Faster R-CNN R101-FPN	65
+5		

@@ -1,0 +1,30 @@
+Class-count
+Split	11
+Doc Page	5
+Doc Page
+Caption
+Footnote
+Formula
+List-item
+Page-footer
+Page-header
+Picture
+Section-header
+Table
+Text
+Title	68 83
+71 84
+60 66
+81 88
+62 89
+72 90
+72 82
+68 83
+82 89
+85 91
+77 81	82 88
+72 82
+69 83
+82 90
+84 90
+All	72 84	78 87

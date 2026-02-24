@@ -1,0 +1,3 @@
+question,difficulty,precision@k,recall@k,mrr,ndcg@k,exact_match,rouge_l,bleu,semantic_similarity,latency_seconds,token_count,passed,failure_reason
+What is the refund policy?,easy,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,3.0690622329711914,36,False,Retrieval failure
+Who is eligible for a refund?,medium,0.0,0.0,0.0,0.0,0.0,0.14285714285714285,0.006883858510498897,0.057884248069698836,0.36390042304992676,43,False,Retrieval failure

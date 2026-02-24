@@ -1,0 +1,100 @@
+KDD’22,August14–18,2022,Washington,DC,USA BirgitPfitzmann,ChristophAuer,MicheleDolfi,AhmedS.Nassar,andPeterStaar
+Table 2: Prediction performance (mAP@0.5-0.95) of object
+detection networks on DocLayNet test set. The MRCNN
+(Mask R-CNN) and FRCNN (Faster R-CNN) models with
+70
+ResNet-50 or ResNet-101 backbone were trained based on
+the network architectures from the detectron2 model zoo
+(Mask R-CNN R50, R101-FPN 3x, Faster R-CNN R101-FPN 65
+3x),withdefaultconfigurations.TheYOLOimplementation
+utilizedwasYOLOv5x6[13].Allmodelswereinitialisedus-
+60
+ingpre-trainedweightsfromtheCOCO2017dataset.
+55
+human MRCNN FRCNN YOLO
+R50 R101 R101 v5x6
+Caption 84-89 68.4 71.5 70.1 77.7 50
+Footnote 83-91 70.9 71.8 73.7 77.2
+Formula 83-85 60.1 63.4 63.5 66.2
+0 20 40 60 80 100
+List-item 87-88 81.2 80.8 81.0 86.2
+% of DocLayNet training set
+Page-footer 93-94 61.6 59.3 58.9 61.1
+Page-header 85-89 71.9 70.0 72.0 67.9
+Picture 69-71 71.7 72.7 72.0 77.1
+Section-header 83-84 67.6 69.3 68.4 74.6
+Table 77-81 82.2 82.9 82.2 86.3
+Text 84-86 84.6 85.8 85.4 88.1
+Title 60-72 76.7 80.4 79.9 82.7
+All 82-83 72.4 73.5 73.4 76.8
+toavoidthisatanycostinordertohaveclear,unbiasedbaseline
+numbers for human document-layout annotation. Third, we in-
+troducedthefeatureofsnappingboxesaroundtextsegmentsto
+obtainapixel-accurateannotationandagainreducetimeandeffort.
+TheCCSannotationtoolautomaticallyshrinkseveryuser-drawn
+boxtotheminimumbounding-boxaroundtheenclosedtext-cells
+forallpurelytext-basedsegments,whichexcludesonlyTableand
+Picture.Forthelatter,weinstructedannotationstafftominimise
+inclusionofsurroundingwhitespacewhileincludingallgraphical
+lines.Adownsideofsnappingboxestoenclosedtextcellsisthat
+somewronglyparsedPDFpagescannotbeannotatedcorrectlyand
+needtobeskipped.Fourth,weestablishedawaytoflagpagesas
+rejectedforcaseswherenovalidannotationaccordingtothelabel
+guidelinescouldbeachieved.ExamplecasesforthiswouldbePDF
+pagesthatrenderincorrectlyorcontainlayoutsthatareimpossible
+tocapturewithnon-overlappingrectangles.Suchrejectedpagesare
+notcontainedinthefinaldataset.Withallthesemeasuresinplace,
+experiencedannotationstaffmanagedtoannotateasinglepagein
+atypicaltimeframeof20sto60s,dependingonitscomplexity.
+5 EXPERIMENTS
+TheprimarygoalofDocLayNetistoobtainhigh-qualityMLmodels
+capableofaccuratedocument-layoutanalysisonawidevariety
+ofchallenginglayouts.AsdiscussedinSection2,objectdetection
+modelsarecurrentlytheeasiesttouse,duetothestandardisation
+ofground-truthdatainCOCOformat[16]andtheavailabilityof
+generalframeworkssuchasdetectron2[17].Furthermore,baseline
+numbersinPubLayNetandDocBankwereobtainedusingstandard
+objectdetectionmodelssuchasMaskR-CNNandFasterR-CNN.
+Assuch,wewillrelatetotheseobjectdetectionmethodsinthis
+59.0:05.0
+PAm
+70
+65
+60
+55
+50
+101 102
+Figure5:Predictionperformance(mAP@0.5-0.95)ofaMask
+R-CNNnetworkwithResNet50backbonetrainedonincreas-
+ingfractionsoftheDocLayNetdataset.Thelearningcurve
+flattensaroundthe80%mark,indicatingthatincreasingthe
+sizeoftheDocLayNetdatasetwithsimilardatawillnotyield
+significantlybetterpredictions.
+paperandleavethedetailedevaluationofmorerecentmethods
+mentionedinSection2forfuturework.
+Inthissection,wewillpresentseveralaspectsrelatedtothe
+performanceofobjectdetectionmodelsonDocLayNet.Similarly
+asinPubLayNet,wewillevaluatethequalityoftheirpredictions
+usingmeanaverageprecision(mAP)with10overlapsthatrange
+from0.5to0.95instepsof0.05(mAP@0.5-0.95).Thesescoresare
+computedbyleveragingtheevaluationcodeprovidedbytheCOCO
+API[16].
+BaselinesforObjectDetection
+InTable2,wepresentbaselineexperiments(giveninmAP)onMask
+R-CNN[12],FasterR-CNN[11],andYOLOv5[13].Bothtraining
+andevaluationwereperformedonRGBimageswithdimensionsof
+1025×1025pixels.Fortraining,weonlyusedoneannotationincase
+ofredundantlyannotatedpages.Asonecanobserve,thevariation
+inmAPbetweenthemodelsisratherlow,butoverallbetween6
+and10%lowerthanthemAPcomputedfromthepairwisehuman
+annotationsontriple-annotatedpages.Thisgivesagoodindication
+thattheDocLayNetdatasetposesaworthwhilechallengeforthe
+researchcommunitytoclosethegapbetweenhumanrecognition
+andMLapproaches.ItisinterestingtoseethatMaskR-CNNand
+FasterR-CNNproduceverycomparablemAPscores,indicating
+thatpixel-basedimagesegmentationderivedfrombounding-boxes
+doesnothelptoobtainbetterpredictions.Ontheotherhand,the
+morerecentYolov5xmodeldoesverywellandevenout-performs
+humansonselectedlabelssuchasText,TableandPicture.Thisis
+notentirelysurprising,asText,TableandPictureareabundantand
+themostvisuallydistinctiveinadocument.

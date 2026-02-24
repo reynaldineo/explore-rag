@@ -1,0 +1,112 @@
+{
+  "wireless headphones": [
+    {
+      "text": "Wireless noise-cancelling over-ear headphones with Bluetooth.",
+      "score": 0.7178
+    },
+    {
+      "text": "Running shoes designed for long-distance comfort.",
+      "score": 0.5173
+    },
+    {
+      "text": "Smartphone with long battery life and fast charging.",
+      "score": 0.4546
+    },
+    {
+      "text": "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
+      "score": 0.4104
+    },
+    {
+      "text": "Scientists discover a new species in the Amazon rainforest.",
+      "score": 0.4083
+    }
+  ],
+  "romantic love story": [
+    {
+      "text": "Two lovers from rival families fall in love in a tragic romance.",
+      "score": 0.7199
+    },
+    {
+      "text": "The national team wins the championship after a dramatic final.",
+      "score": 0.4932
+    },
+    {
+      "text": "A group of friends embark on a quest to destroy a powerful ring.",
+      "score": 0.4806
+    },
+    {
+      "text": "A team of astronauts travel through a wormhole to save humanity.",
+      "score": 0.461
+    },
+    {
+      "text": "const sum = (a, b) => a + b;",
+      "score": 0.4568
+    }
+  ],
+  "AI research breakthrough": [
+    {
+      "text": "A major tech company announces a breakthrough in AI research.",
+      "score": 0.8656
+    },
+    {
+      "text": "Scientists discover a new species in the Amazon rainforest.",
+      "score": 0.5665
+    },
+    {
+      "text": "A team of astronauts travel through a wormhole to save humanity.",
+      "score": 0.4759
+    },
+    {
+      "text": "The national team wins the championship after a dramatic final.",
+      "score": 0.4423
+    },
+    {
+      "text": "A group of friends embark on a quest to destroy a powerful ring.",
+      "score": 0.4217
+    }
+  ],
+  "Python function for recursion": [
+    {
+      "text": "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
+      "score": 0.4902
+    },
+    {
+      "text": "const sum = (a, b) => a + b;",
+      "score": 0.4495
+    },
+    {
+      "text": "public static void main(String[] args) { System.out.println(\"Hello World\"); }",
+      "score": 0.4196
+    },
+    {
+      "text": "func add(a int, b int) int { return a + b }",
+      "score": 0.392
+    },
+    {
+      "text": "Scientists discover a new species in the Amazon rainforest.",
+      "score": 0.3684
+    }
+  ],
+  "renewable energy policy": [
+    {
+      "text": "The government unveils a new renewable energy policy.",
+      "score": 0.8491
+    },
+    {
+      "text": "Mechanical keyboard with RGB lighting and hot-swappable switches.",
+      "score": 0.432
+    },
+    {
+      "text": "The central bank raises interest rates to fight inflation.",
+      "score": 0.4052
+    },
+    {
+      "text": "Smartphone with long battery life and fast charging.",
+      "score": 0.3889
+    },
+    {
+      "text": "A team of astronauts travel through a wormhole to save humanity.",
+      "score": 0.3848
+    }
+  ]
+}

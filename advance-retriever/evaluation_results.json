@@ -1,0 +1,73 @@
+[
+  {
+    "query": "How does enterprise billing work?",
+    "precision@k": 0.6,
+    "recall@k": 1.0,
+    "retrieved": [
+      "enterprise-billing.md",
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ],
+    "relevant": [
+      "enterprise-billing.html",
+      "enterprise-billing.md",
+      "enterprise-billing.txt"
+    ]
+  },
+  {
+    "query": "What are the components of enterprise billing systems?",
+    "precision@k": 0.4,
+    "recall@k": 1.0,
+    "retrieved": [
+      "enterprise-billing.md",
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ],
+    "relevant": [
+      "enterprise-billing.md",
+      "enterprise-billing.html"
+    ]
+  },
+  {
+    "query": "What are the best practices for enterprise billing?",
+    "precision@k": 0.4,
+    "recall@k": 1.0,
+    "retrieved": [
+      "enterprise-billing.md",
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ],
+    "relevant": [
+      "enterprise-billing.txt",
+      "enterprise-billing.html"
+    ]
+  },
+  {
+    "query": "What are the challenges in enterprise billing?",
+    "precision@k": 0.4,
+    "recall@k": 1.0,
+    "retrieved": [
+      "enterprise-billing.md",
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ],
+    "relevant": [
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ]
+  },
+  {
+    "query": "What is the future of enterprise billing?",
+    "precision@k": 0.4,
+    "recall@k": 1.0,
+    "retrieved": [
+      "enterprise-billing.md",
+      "enterprise-billing.html",
+      "enterprise-billing.txt"
+    ],
+    "relevant": [
+      "enterprise-billing.md",
+      "enterprise-billing.html"
+    ]
+  }
+]

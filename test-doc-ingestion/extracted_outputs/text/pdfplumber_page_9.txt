@@ -1,0 +1,37 @@
+DocLayNet:ALargeHuman-AnnotatedDatasetforDocument-LayoutAnalysis KDD’22,August14–18,2022,Washington,DC,USA
+b569420c57251ab03711950b5c36af9c7f03f9daa38519fc0febe24a5538b7b2
+b57cf0750506535193e2002d1d1ad3394679775f15ea6571f4fb40e3927df2f7
+cafb70978b166aec8fb2efc61fa336db97890be1d527aaf4da65474f56fc18b1
+76c8dcc8058de9043fdb8ac6b0b230d624cbb12850697e85073ca15aa8a2deb4
+fbafe8a8e7120588beadc534ffc2b563666fdd4f518e5f0d565da5f80d60a2f2
+723072095965dc1d46706eda1762acdb1adf53d101d74e331bc884f62d9ad06b
+A B C
+D E F
+Text Caption List-Item Formula Table Picture Section-Header Page-Header Page-Footer Title
+Figure 6: Example layout predictions on selected pages from the DocLayNet test-set. (A, D) exhibit favourable results on
+colouredbackgrounds.(B,C)showaccuratelist-itemandparagraphdifferentiationdespitedensely-spacedlines.(E)demon-
+stratesgoodtableandfiguredistinction.(F)showspredictionsonaChinesepatentwithmultipleoverlaps,labelconfusion
+andmissingboxes.
+Diaconu,MaiThanhMinh,Marc,albinxavi,fatih,oleg,andwanghaoyang.ul- [20] ShoubinLi,XuyanMa,ShuaiqunPan,JunHu,LinShi,andQingWang.Vtlayout:
+tralytics/yolov5:v6.0-yolov5nnanomodels,roboflowintegration,tensorflow Fusionofvisualandtextfeaturesfordocumentlayoutanalysis,2021.
+export,opencvdnnsupport,October2021. [21] PengZhang,CanLi,LiangQiao,ZhanzhanCheng,ShiliangPu,YiNiu,andFei
+[14] NicolasCarion,FranciscoMassa,GabrielSynnaeve,NicolasUsunier,Alexander Wu.Vsr:Aunifiedframeworkfordocumentlayoutanalysiscombiningvision,
+Kirillov,andSergeyZagoruyko.End-to-endobjectdetectionwithtransformers. semanticsandrelations,2021.
+CoRR,abs/2005.12872,2020. [22] PeterWJStaar,MicheleDolfi,ChristophAuer,andCostasBekas. Corpus
+[15] MingxingTan,RuomingPang,andQuocV.Le.Efficientdet:Scalableandefficient conversionservice:Amachinelearningplatformtoingestdocumentsatscale.
+objectdetection.CoRR,abs/1911.09070,2019. InProceedingsofthe24thACMSIGKDDInternationalConferenceonKnowledge
+[16] Tsung-YiLin,MichaelMaire,SergeJ.Belongie,LubomirD.Bourdev,RossB.Gir- DiscoveryandDataMining,KDD,pages774–782.ACM,2018.
+shick,JamesHays,PietroPerona,DevaRamanan,PiotrDollár,andC.Lawrence [23] ConnorShortenandTaghiM.Khoshgoftaar.Asurveyonimagedataaugmenta-
+Zitnick.MicrosoftCOCO:commonobjectsincontext,2014. tionfordeeplearning.JournalofBigData,6(1):60,2019.
+[17] YuxinWu,AlexanderKirillov,FranciscoMassa,Wan-YenLo,andRossGirshick.
+Detectron2,2019.
+[18] NikolaosLivathinos,CesarBerrospi,MaksymLysak,ViktorKuropiatnyk,Ahmed
+Nassar,AndreCarvalho,MicheleDolfi,ChristophAuer,KasperDinkla,andPeter
+W.J.Staar.Robustpdfdocumentconversionusingrecurrentneuralnetworks.In
+Proceedingsofthe35thConferenceonArtificialIntelligence,AAAI,pages15137–
+15145,feb2021.
+[19] YihengXu,MinghaoLi,LeiCui,ShaohanHuang,FuruWei,andMingZhou.
+Layoutlm:Pre-trainingoftextandlayoutfordocumentimageunderstanding.
+InProceedingsofthe26thACMSIGKDDInternationalConferenceonKnowledge
+DiscoveryandDataMining,KDD,pages1192–1200,NewYork,USA,2020.Asso-
+ciationforComputingMachinery.

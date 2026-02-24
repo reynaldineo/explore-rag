@@ -1,0 +1,23 @@
+Class-count	11 6 5 4
+Caption
+Footnote
+Formula
+List-item
+Page-footer
+Page-header
+Picture
+Section-header
+Table
+Text
+Title	68 Text Text Text
+71 Text Text Text
+60 Text Text Text
+81 Text 82 Text
+62 62 - -
+72 68 - -
+72 72 72 72
+68 67 69 68
+82 83 82 82
+85 84 84 84
+77 Sec.-h. Sec.-h. Sec.-h.
+Overall	72 73 78 77

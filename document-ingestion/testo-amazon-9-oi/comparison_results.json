@@ -1,0 +1,301 @@
+{
+  "timestamp": "2026-02-07T17:12:52.532701",
+  "summary": {
+    "avg_text_completeness": 84.11,
+    "avg_structure_score": 12.43,
+    "avg_metadata_score": 11.43,
+    "total_tools": 7,
+    "max_word_count": 872,
+    "min_word_count": 0,
+    "best_completeness_tool": "LlamaIndex",
+    "best_structure_tool": "Unstructured",
+    "best_metadata_tool": "Docling"
+  },
+  "results": [
+    {
+      "tool_name": "Docling",
+      "text": "commitment. We measure both absolute emissions and carbon intensity to provide a complete picture of our progress toward our 2040 goal. Absolute emissions are critical to our end goal, and carbon intensity helps us assess the effectiveness of our actions along the way. This type of comprehensive measurement is not only important for us, but it is also useful for our customers and partners, so they can understand how investments across our value chain are driving real progress.\n\nAfter two years of decreasing absolute carbon emissions, we saw a 6% increase in 2024. 7 This is where carbon intensity helps us examine whether we're employing the right solutions in the near term, and decoupling emissions from business growth. 8 In 2024, we achieved a 4% reduction in carbon intensity compared to 2023, with 11% business growth during the same period. We have also seen a sustained reduction in carbon intensity year over year and have reduced our carbon intensity approximately 40% since committin...",
+      "text_length": 5279,
+      "metadata": {
+        "num_pages": 1,
+        "title": "",
+        "source": "../docs/amazon-esg-2024-page-9.pdf"
+      },
+      "processing_time_ms": 6159.284830093384,
+      "structural_elements": {
+        "headings": [
+          "## Direct Emissions"
+        ],
+        "num_headings": 1,
+        "num_tables": 1,
+        "num_lists": 3,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "Unstructured",
+      "text": "Overview\n\nProgress\n\nAppendix\n\nCarbon and Energy Waste and Circularity\n\nPackaging Water\n\ncommitment. We measure both absolute emissions and carbon intensity to provide a complete picture of our progress toward our 2040 goal. Absolute emissions are critical to our end goal, and carbon intensity helps us assess the effectiveness of our actions along the way. This type of comprehensive measurement is not only important for us, but it is also useful for our customers and partners, so they can understand how investments across our value chain are driving real progress.\n\nAfter two years of decreasing absolute carbon emissions, we saw a 6% increase in 2024.7 This is where carbon intensity helps us examine whether we’re employing the right solutions in the near term, and decoupling emissions from business growth.8 In 2024, we achieved a 4% reduction in carbon intensity compared to 2023, with 11% business growth during the same period. We have also seen a sustained reduction in carbon intensity ...",
+      "text_length": 5734,
+      "metadata": {
+        "num_elements": 81,
+        "source": "../docs/amazon-esg-2024-page-9.pdf"
+      },
+      "processing_time_ms": 2738.974094390869,
+      "structural_elements": {
+        "headings": [
+          "Overview",
+          "Progress",
+          "Appendix",
+          "Carbon and Energy Waste and Circularity",
+          "Packaging Water",
+          "Direct Emissions",
+          "Biodiversity",
+          "Human Rights",
+          "Responsible Supply Chain",
+          "Sustainable Products"
+        ],
+        "num_headings": 24,
+        "num_tables": 0,
+        "num_lists": 4,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "LayoutLM",
+      "text": "9\nOverview\nProgress\nAppendix\nCarbon and Energy\nWaste and Circularity\nPackaging\nWater\nBiodiversity\nHuman Rights\nResponsible Supply Chain\nSustainable Products\nEmployee Experience\nHealth and Safety\nInclusive Experiences\nCommunity Impact\nResponsible Business Practices\nActions\n#1\nLargest corporate purchaser of \nrenewable energy in the world for\nthe fifth consecutive year, according \nto BloombergNEF\n3.7M\nGallons of blended SAF procured\n1.5B\nPackages delivered by EVs globally\n1.15\nGlobal Power Usage Effectiveness \n(PUE) for AWS data centers, compared \nto the industry average of 1.25\n621\nTotal renewable energy projects \nglobally—including 124 new \nprojects—representing 34 GW\nof capacity\n90%\nOf our highest-emitting suppliers\nhave decarbonization plans in place\nLaunched Amazon Sustainability Exchange to help others \ntake action, sharing our formerly proprietary guidelines, \nplaybooks, science models, and other resources10\nGoal\nReach net-zero carbon emissions \nacross our global operations by 2040...",
+      "text_length": 5758,
+      "metadata": {
+        "num_pages": 1,
+        "source": "../docs/amazon-esg-2024-page-9.pdf",
+        "note": "Using PyMuPDF backend for text extraction (LayoutLM for structure)"
+      },
+      "processing_time_ms": 58.68172645568848,
+      "structural_elements": {
+        "headings": [
+          "3.7M",
+          "1.5B"
+        ],
+        "num_headings": 2,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PaddleOCR",
+      "text": "",
+      "text_length": 0,
+      "metadata": {
+        "source": "../docs/amazon-esg-2024-page-9.pdf"
+      },
+      "processing_time_ms": 2892.4410343170166,
+      "structural_elements": {
+        "headings": [],
+        "num_headings": 0,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": "No module named 'paddle'",
+      "success": false
+    },
+    {
+      "tool_name": "LlamaIndex",
+      "text": "9\nOverview Progress Appendix\nCarbon and Energy Waste and Circularity Packaging Water Biodiversity Human Rights Responsible Supply Chain Sustainable Products Employee Experience Health and Safety Inclusive Experiences Community Impact Responsible Business Practices\nActions\n#1\nLargest corporate purchaser of \nrenewable energy in the world for  \nthe fifth consecutive year, according  \nto BloombergNEF\n3.7M\nGallons of blended SAF procured\n1.5B\nPackages delivered by EVs globally\n1.15\nGlobal Power Usage Effectiveness \n(PUE) for AWS data centers, compared \nto the industry average of 1.25\n621\nTotal renewable energy projects \nglobally—including 124 new \nprojects—representing 34 GW  \nof capacity\n90%\nOf our highest-emitting suppliers  \nhave decarbonization plans in place\nLaunched Amazon Sustainability Exchange  to help others \ntake action, sharing our formerly proprietary guidelines, \nplaybooks, science models, and other resources\n10\nGoal Reach net-zero carbon emissions \nacross our global operation...",
+      "text_length": 5768,
+      "metadata": {
+        "num_documents": 1,
+        "source": "../docs/amazon-esg-2024-page-9.pdf",
+        "page_label": "1",
+        "file_name": "amazon-esg-2024-page-9.pdf",
+        "file_path": "../docs/amazon-esg-2024-page-9.pdf",
+        "file_type": "application/pdf",
+        "file_size": 201748,
+        "creation_date": "2026-02-07",
+        "last_modified_date": "2026-02-07"
+      },
+      "processing_time_ms": 542.8617000579834,
+      "structural_elements": {
+        "headings": [
+          "#1"
+        ],
+        "num_headings": 1,
+        "num_tables": 0,
+        "num_lists": 4,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PyMuPDF",
+      "text": "9\nOverview\nProgress\nAppendix\nCarbon and Energy\nWaste and Circularity\nPackaging\nWater\nBiodiversity\nHuman Rights\nResponsible Supply Chain\nSustainable Products\nEmployee Experience\nHealth and Safety\nInclusive Experiences\nCommunity Impact\nResponsible Business Practices\nActions\n#1\nLargest corporate purchaser of \nrenewable energy in the world for\nthe fifth consecutive year, according \nto BloombergNEF\n3.7M\nGallons of blended SAF procured\n1.5B\nPackages delivered by EVs globally\n1.15\nGlobal Power Usage Effectiveness \n(PUE) for AWS data centers, compared \nto the industry average of 1.25\n621\nTotal renewable energy projects \nglobally—including 124 new \nprojects—representing 34 GW\nof capacity\n90%\nOf our highest-emitting suppliers\nhave decarbonization plans in place\nLaunched Amazon Sustainability Exchange to help others \ntake action, sharing our formerly proprietary guidelines, \nplaybooks, science models, and other resources10\nGoal\nReach net-zero carbon emissions \nacross our global operations by 2040...",
+      "text_length": 5758,
+      "metadata": {
+        "num_pages": 1,
+        "source": "../docs/amazon-esg-2024-page-9.pdf",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "creator": ""
+      },
+      "processing_time_ms": 12.064695358276367,
+      "structural_elements": {
+        "headings": [
+          "9",
+          "Actions",
+          "#1",
+          "3.7M",
+          "1.5B",
+          "1.15",
+          "621",
+          "90%",
+          "Goal",
+          "Amazon’s Carbon Footprint (MMT CO₂e*) "
+        ],
+        "num_headings": 97,
+        "num_tables": 0,
+        "num_lists": 0,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    },
+    {
+      "tool_name": "PDFPlumber",
+      "text": "Overview Progress Appendix\nCarbon and Energy Waste and Circularity Packaging Water Biodiversity Human Rights Responsible Supply Chain Sustainable Products Employee Experience Health and Safety Inclusive Experiences Community Impact Responsible Business Practices\ncommitment. We measure both absolute emissions and travel to our customers. By dividing our operations\ncarbon intensity to provide a complete picture of our and transportation networks into smaller regions and Reach net-zero carbon emissions\nActions Goal\nprogress toward our 2040 goal. Absolute emissions are stocking more of the products our customers want locally across our global operations by 2040\ncritical to our end goal, and carbon intensity helps us customers can get the products they want quickly and we\nassess the effectiveness of our actions along the way. can utilize more sustainable modes of transport to deliver\nThis type of comprehensive measurement is not only those products to them. In 2024, we avoided millions of #...",
+      "text_length": 5663,
+      "metadata": {
+        "num_pages": 1,
+        "source": "../docs/amazon-esg-2024-page-9.pdf",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "creator": ""
+      },
+      "processing_time_ms": 187.07275390625,
+      "structural_elements": {
+        "headings": [],
+        "num_headings": 0,
+        "num_tables": 0,
+        "num_lists": 3,
+        "num_images": 0,
+        "image_paths": [],
+        "table_paths": []
+      },
+      "error": null,
+      "success": true
+    }
+  ],
+  "metrics": [
+    {
+      "tool_name": "Docling",
+      "text_completeness_score": 91.52,
+      "structure_score": 10,
+      "metadata_score": 20.0,
+      "word_count": 753,
+      "char_count": 5279,
+      "num_headings": 1,
+      "num_tables": 1,
+      "num_lists": 3,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "Unstructured",
+      "text_completeness_score": 99.41,
+      "structure_score": 34,
+      "metadata_score": 0.0,
+      "word_count": 864,
+      "char_count": 5734,
+      "num_headings": 24,
+      "num_tables": 0,
+      "num_lists": 4,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "LayoutLM",
+      "text_completeness_score": 99.83,
+      "structure_score": 4,
+      "metadata_score": 20.0,
+      "word_count": 867,
+      "char_count": 5758,
+      "num_headings": 2,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 3
+    },
+    {
+      "tool_name": "PaddleOCR",
+      "text_completeness_score": 0.0,
+      "structure_score": 0.0,
+      "metadata_score": 0.0,
+      "word_count": 0,
+      "char_count": 0,
+      "num_headings": 0,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 1
+    },
+    {
+      "tool_name": "LlamaIndex",
+      "text_completeness_score": 100.0,
+      "structure_score": 6,
+      "metadata_score": 0.0,
+      "word_count": 872,
+      "char_count": 5768,
+      "num_headings": 1,
+      "num_tables": 0,
+      "num_lists": 4,
+      "num_images": 0,
+      "metadata_fields": 9
+    },
+    {
+      "tool_name": "PyMuPDF",
+      "text_completeness_score": 99.83,
+      "structure_score": 30,
+      "metadata_score": 20.0,
+      "word_count": 867,
+      "char_count": 5758,
+      "num_headings": 97,
+      "num_tables": 0,
+      "num_lists": 0,
+      "num_images": 0,
+      "metadata_fields": 2
+    },
+    {
+      "tool_name": "PDFPlumber",
+      "text_completeness_score": 98.18,
+      "structure_score": 3,
+      "metadata_score": 20.0,
+      "word_count": 869,
+      "char_count": 5663,
+      "num_headings": 0,
+      "num_tables": 0,
+      "num_lists": 3,
+      "num_images": 0,
+      "metadata_fields": 2
+    }
+  ]
+}
